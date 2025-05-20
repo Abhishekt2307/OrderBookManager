@@ -8,18 +8,9 @@ This project compares two approaches for managing a real-time local order book:
 
 The goal is to evaluate which data structure performs better for handling snapshot + delta updates (e.g., from Bybit) and retrieving the top order book levels efficiently.
 
-
-## Project Structure
-.
-├── orderbook.Btree.js       # Order book using Red-Black Tree logic
-├── orderbook.merge.js       # Order book using merge interval strategy
-├── package.json             # Project metadata and dependencies
-├── package-lock.json        # Exact dependency versions (auto-generated)
-└── .gitignore               # Files and folders to exclude from git
-
 #How to Run
 
-# Install dependencies (if any are defined)
+# Install dependencies 
 npm install
 # Add your bybit key and secret in both orderbook.Btree.js and orderbook.merge.js
 
