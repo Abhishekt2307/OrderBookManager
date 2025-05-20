@@ -130,8 +130,6 @@ class BybitOrderBookManager {
 async function newSocketConnection() {
   try {
     const wsConfig = {
-      key: "OWR62JtM71biQggCON",
-      secret: "J3XH8fdZ2A2sCKc4TNZFP0MRT0ONx1gWv8Tn",
       testnet: false,
       market: 'v5'
     };
