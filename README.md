@@ -16,7 +16,7 @@ npm install
 
 # Run either of the implementations
 node orderbook.Btree.js
-# OR
+OR
 node orderbook.merge.js
 
 
