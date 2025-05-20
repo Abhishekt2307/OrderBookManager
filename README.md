@@ -12,7 +12,6 @@ The goal is to evaluate which data structure performs better for handling snapsh
 
 # Install dependencies 
 npm install
-# Add your bybit key and secret in both orderbook.Btree.js and orderbook.merge.js
 
 # Run either of the implementations
 node orderbook.Btree.js
